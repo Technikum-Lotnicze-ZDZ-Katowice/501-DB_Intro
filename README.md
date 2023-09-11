@@ -12,13 +12,16 @@ ZADANIA:
     SELECT * FROM Customers WHERE City='Madrid'
    ```
 5. Sprawdź jakie miasto ma kod pocztowy 1010
-6. Wyświetl wszystkich użytkowników z Berlina i Madrytu
-7. Sprawdź ilu jest użytkonwników z Buenos Aires
-8. Wstaw siebie do bazy danych Klienci (Customers)
-9. Zmodyfikuj Swoje miejsce zamieszkania
-10. Usuń siebie z bazy danych
-11. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim i wyświetl przez kogo zostały obsłużone
-12. Sprawdź co kupił 
+   ```SQL
+   SELECT City FROM Customers WHERE PostalCode=1010
+   ```
+7. Wyświetl wszystkich użytkowników z Berlina i Madrytu
+8. Sprawdź ilu jest użytkonwników z Buenos Aires
+9. Wstaw siebie do bazy danych Klienci (Customers)
+10. Zmodyfikuj Swoje miejsce zamieszkania
+11. Usuń siebie z bazy danych
+12. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim i wyświetl przez kogo zostały obsłużone
+13. Sprawdź co kupił 
 
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
