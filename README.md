@@ -2,7 +2,12 @@
 
 https://www.w3schools.com//sql
 
-ZPYUTANIA
+ZAPYTANIA:
+1. Wypisz wszystkch użytkowników w kolejności alfabetycznej wg Nazwiska (imienia)
+2. Wypisz wszystkich użytkowników z Madrytu
+3. Sprawdź jakie miasto ma kod pocztowy 1010
+4. Sprawdź ilu jest użytkonwników z Buenos Aires
+5. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim i wyświetl przez kogo zostały obsłużone
 
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
