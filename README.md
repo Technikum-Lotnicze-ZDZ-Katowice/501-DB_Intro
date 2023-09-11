@@ -21,11 +21,26 @@ ZADANIA:
     SELECT * FROM Customers WHERE City IN('Berlin','Madrid')
    ```
 9. Sprawdź ilu jest użytkonwników z Buenos Aires
-10. Wstaw siebie do bazy danych Klienci (Customers)
-11. Zmodyfikuj Swoje miejsce zamieszkania
-12. Usuń siebie z bazy danych
-13. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim i wyświetl przez kogo zostały obsłużone
-14. Sprawdź co kupił 
+    ```SQL
+    SELECT COUNT(*) FROM Customers WHERE City="Buenos Aires"
+    ```
+11. Wstaw siebie do bazy danych Klienci (Customers)
+    ```SQL
+    INSERT INTO Customers(CustomerID, CustomerName) VALUES (92, 'Jan Kowalski');
+    ```
+13. Zmodyfikuj Swoje miejsce zamieszkania
+    ```SQL
+    UPDATE Customers SET City='Katowice' WHERE CustomerID=92
+    ```
+15. Usuń siebie z bazy danych
+    ```SQL
+    DELETE FROM Customers WHERE CustomerID=92;
+    ```
+17. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim
+    ```SQL
+    SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID WHERE Customers.ContactName='Henriette Pfalzheim'
+    ```
+19. Sprawdź co kupiła
 
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
