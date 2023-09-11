@@ -40,7 +40,7 @@ ZADANIA:
     ```SQL
     SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID WHERE Customers.ContactName='Henriette Pfalzheim'
     ```
-19. Sprawdź co kupiła
+19. Sprawdź co kupiła (ProductName i Unit)
 
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
