@@ -1,6 +1,6 @@
 # 501-DB_Intro
 
-https://www.w3schools.com//sql
+https://www.w3schools.com/sql
 
 ZADANIA:
 1. Wypisz wszystkch użytkowników w kolejności alfabetycznej wg Nazwiska (imienia)
