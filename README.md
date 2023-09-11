@@ -2,7 +2,7 @@
 
 https://www.w3schools.com//sql
 
-ZAPYTANIA:
+ZADANIA:
 1. Wypisz wszystkch użytkowników w kolejności alfabetycznej wg Nazwiska (imienia)
 2. Wypisz wszystkich użytkowników z Madrytu
 3. Sprawdź jakie miasto ma kod pocztowy 1010
