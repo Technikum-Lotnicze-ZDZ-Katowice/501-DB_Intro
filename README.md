@@ -7,11 +7,11 @@ ZADANIA:
 2. Wypisz wszystkich użytkowników z Madrytu
 3. Sprawdź jakie miasto ma kod pocztowy 1010
 4. Sprawdź ilu jest użytkonwników z Buenos Aires
-5. Sprawdź co kupił 
 6. Wstaw siebie do bazy danych Klienci (Customers)
 7. Zmodyfikuj Swoje miejsce zamieszkania
 8. Usuń siebie z bazy danych
 9. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim i wyświetl przez kogo zostały obsłużone
+10. Sprawdź co kupił 
 
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
