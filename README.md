@@ -4,9 +4,12 @@ https://www.w3schools.com//sql
 
 ZADANIA:
 1. Wypisz wszystkch użytkowników w kolejności alfabetycznej wg Nazwiska (imienia)
-2. Wypisz wszystkich użytkowników z Madrytu
-3. Sprawdź jakie miasto ma kod pocztowy 1010
-4. Sprawdź ilu jest użytkonwników z Buenos Aires
+   ```SQL
+   SELECT * FROM Customers ORDER BY ContactName ASC
+   ```
+3. Wypisz wszystkich użytkowników z Madrytu
+4. Sprawdź jakie miasto ma kod pocztowy 1010
+5. Sprawdź ilu jest użytkonwników z Buenos Aires
 6. Wstaw siebie do bazy danych Klienci (Customers)
 7. Zmodyfikuj Swoje miejsce zamieszkania
 8. Usuń siebie z bazy danych
