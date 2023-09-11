@@ -1,6 +1,10 @@
 # 501-DB_Intro
 
-## Links
+https://www.w3schools.com//sql
+
+ZPYUTANIA
+
+## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
 - [Kurs SQL - podstawy cz. 1/3](https://youtu.be/15q9R1lTqvI?si=fguIPT6szorEl_S7)
 - [Kurs SQL - podstawy cz. 2/3](https://youtu.be/U34O01poNvI?si=HK7GdqtDFgMhbHu9)
