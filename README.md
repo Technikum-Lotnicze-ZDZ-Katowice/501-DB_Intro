@@ -13,7 +13,7 @@ ZADANIA:
    ```
 5. Sprawdź jakie miasto ma kod pocztowy 1010
    ```SQL
-   SELECT City FROM Customers WHERE PostalCode=1010
+   SELECT City FROM Customers WHERE PostalCode=1010 LIMIT 1
    ```
 7. Wyświetl wszystkich użytkowników z Berlina i Madrytu
 8. Sprawdź ilu jest użytkonwników z Buenos Aires
