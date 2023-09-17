@@ -2,7 +2,7 @@
 
 https://www.w3schools.com/sql
 
-ZADANIA:
+ZADANIA (ZAPYTANIA PROSTE):
 1. Wypisz wszystkch użytkowników w kolejności alfabetycznej wg Nazwiska (imienia)
    ```SQL
    SELECT * FROM Customers ORDER BY ContactName ASC
@@ -36,6 +36,8 @@ ZADANIA:
     ```SQL
     DELETE FROM Customers WHERE CustomerID=92;
     ```
+ZAPYTANIA ZŁOŻONE
+    
 17. Wypisz wszystkie zamówienia dokonane przez Henriette Pfalzheim
     ```SQL
     SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID WHERE Customers.ContactName='Henriette Pfalzheim'
