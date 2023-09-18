@@ -43,8 +43,11 @@ ZAPYTANIA ZŁOŻONE
     SELECT Orders.OrderID, Customers.CustomerName FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID WHERE Customers.ContactName='Henriette Pfalzheim'
     ```
 18. Sprawdź to samo bez INNER JOIN (SORTUJ WG Nazwiska)
+   ```SQL
+SELECT Orders.OrderID, Customers.CustomerName FROM Orders, Customers WHERE Orders.CustomerID=Customers.CustomerID AND Customers.ContactName='Henriette Pfalzheim'
+   ```
 
-20. Sprawdź co kupiła (ProductName i Unit)
+21. Sprawdź co kupiła (ProductName i Unit)
 
 ```SQL
 SELECT 
