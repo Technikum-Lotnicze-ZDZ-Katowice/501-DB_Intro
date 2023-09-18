@@ -46,6 +46,17 @@ ZAPYTANIA ZŁOŻONE
 
 20. Sprawdź co kupiła (ProductName i Unit)
 
+```SQL
+SELECT 
+	Customers.CustomerName, Products.ProductName 
+FROM 
+	Customers, Products, OrderDetails, Orders 
+WHERE 
+	Orders.OrderID = OrderDetails.OrderID AND Products.ProductID=OrderDetails.ProductID AND OrderDetails.OrderID = Orders.OrderID AND Orders.CustomerID = Customers.CustomerID
+AND
+	Customers.ContactName = 'Henriette Pfalzheim'
+```
+
 ## Tuts
 - [Do czego potrzebujemy baz danych? Podstawy pracy z bazami relacyjnymi (SQL)](https://youtu.be/lix4ZqYepk0?si=hAn7lk183OQzNYta)
 - [Kurs SQL - podstawy cz. 1/3](https://youtu.be/15q9R1lTqvI?si=fguIPT6szorEl_S7)
